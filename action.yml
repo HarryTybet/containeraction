@@ -6,9 +6,9 @@ inputs:
     description: 'greeting to use'
     required: true
     default: 'Awcome Guru'
- outputs:
+outputs:
   myOutputs:
     description: 'total memory'
- runs:
+runs:
   using: 'docker'
   image: 'Dockerfile'
